@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta name="author" content = "Jiean Zhou">
+    <meta name = "keywords" content = "mediart213, html, css">
+    <meta name = "description" content = "HTML Lab 5">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> 
+    <meta http-equiv="refresh" content = "10">
+    <link rel="stylesheet" href="style.css">
+    <title>Homepage</title>
+</head>
+
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <p>Posted by <i>Jiean Zhou</i></p>
+        <div class="divider"></div>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About</a></li>
+            <li><a href="projects.html">Product</a></li>
+            <li><a href="contactme.html">Contact</a></li>
+        </ul>   
+    </nav>
+        
+    <main>    
+        <form method="get" action="results.html">
+            <label for="name">Name:</label><div class="line-break"></div>
+
+            <input type="text" id="name" name="name" required><div class="line-break"></div><div class="line-break"></div>
+
+            <label for="title">Title:</label><div class="line-break"></div>
+
+            <label for="Mr.">Mr.</label>
+            <input type="radio" id="Mr." name="title" value="Mr.">
+        
+            <label for="Ms">Ms.</label>
+            <input type="radio" id="Ms" name="title" value="Ms">
+        
+            <label for="Mrs">Mrs.</label>
+            <input type="radio" id="Mrs" name="title" value="Mrs">
+        
+            <label for="Dr.">Dr.</label>
+            <input type="radio" id="Dr." name="title" value="Dr."><div class="line-break"></div>
+        
+            <label for="email">Email:</label><div class="line-break"></div>
+            <input type="text" id="email" name="email" required><div class="line-break"></div><div class="line-break"></div>
+
+            <label for="ques">Question:</label><div class="line-break"></div>
+            <input type="text" id="ques" name="ques" required><div class="line-break"></div><div class="line-break"></div>
+        
+            <input type="submit" value="Submit">
+        </form>
+    
+        <h2>Times I am Online</h2>
+    
+        <table class="schedule">
+            <tr class="schedule-header">
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+            <tr class="schedule-hours">
+                <td>Offline</td>
+                <td>9am - 5pm</td>
+                <td>9am - 5pm</td>
+                <td>9am - 5pm</td>
+                <td>9am - 5pm</td>
+                <td>9am - 5pm</td>
+                <td>Offline</td>
+            </tr>
+        </table>
+
+        <div class="line-break"></div>
+        <div class="line-break"></div>
+        <div class="line-break"></div>
+
+        <button id="hm" title="This takes you to my home page" onclick="window.location.href='index.html';">Homepage</button>
+
+    </main>
+
+    <footer>
+        <div class="divider"></div>
+        Artist Name: Jiean Zhou <div class="line-break"></div>
+        &copy; 2024 copyright reserved <div class="line-break"></div>
+        <a href="mailto:jaz28@duke.edu">jaz28@duke.edu</a>
+    </footer>
+</body>
+</html>

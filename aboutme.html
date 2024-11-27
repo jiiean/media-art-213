@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content = "Jiean Zhou">
+    <meta name = "keywords" content = "mediart213, html, css">
+    <meta name = "description" content = "HTML Lab 5">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> 
+    <meta http-equiv="refresh" content = "10">
+    <link rel="stylesheet" href="style.css">
+    <title>About Me</title>
+</head>
+
+<body>
+    <header>
+        <h1>About Me</h1>
+        <p>Posted by <i>Jiean Zhou</i></p>
+        <div class="divider"></div>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About</a></li>
+            <li><a href="projects.html">Product</a></li>
+            <li><a href="contactme.html">Contact</a></li>
+        </ul>   
+    </nav>
+
+    <main>
+        <div id="box">
+            <h2>Share the Page!</h2>
+        </div>
+
+        <aside>
+            <h3>One of my childhood songs:</h3>
+            <audio class="space" controls>
+                <source src="audio/Oscar_Apollo_vol36_SideA copy.mp3" type="audio/mp3">
+            </audio>
+        </aside>
+
+        <section>
+            <h3>Me at DKU</h3>
+            <p>I am a <span class="highlight">Junior at DKU</span> studying computation and design with a focus in Digital Media.</p>
+
+            <img class="space" src="image/dku-logo copy.png" height="100" alt="picture of dku logo">
+        </section>
+    
+        <article>
+            <p class="space" >Some more <sup>general</sup> information</p>
+            <dl class="space" id="overflow">
+                <dt><ins><b>Pets:</b></ins></dt>
+                <dd>- Cat</dd>
+                <dd>- Fish</dd>
+                <dt><ins><b>Siblings:</b></ins></dt>
+                <dd >- I am an only child</dd>
+            </dl >
+    
+
+            <div class="info-box" class="space" >
+                <p class="space" >Click here for some of my past <a href="projects.html" target="_blank" title="projects">projects</a>.</p>
+                <p>For any more questions, feel free to email me <a href="mailto:jaz28@duke.edu" target="_blank">here</a>.</p><br>
+            </div>
+            <button id="hm" title="This takes you to my home page" onclick="window.location.href='index.html';">Homepage</button>
+        </article>
+    </main>
+
+
+    <footer>
+        <div class="divider"></div>
+        Artist Name: Jiean Zhou <div class="line-break"></div>
+        &copy; 2024 copyright reserved <div class="line-break"></div>
+        <a href="mailto:jaz28@duke.edu">jaz28@duke.edu</a>
+    </footer>
+</body>
+</html>

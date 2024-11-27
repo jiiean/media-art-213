@@ -1,0 +1,287 @@
+.menu-list {
+    list-style-type: square;
+}
+
+.menu-list li {
+    margin-bottom: 10px; 
+}
+
+#abtme, #prj, #cnt, #hm {
+    color: azure;
+    border-radius: 5px;
+}
+
+#abtme {
+    background-color: rgb(214, 43, 143);
+}
+
+#prj {
+    background-color: rgb(108, 108, 240);
+}
+
+#cnt {
+    background-color: rgb(51, 180, 169);
+}
+
+#hm {
+    background-color: darkblue;
+    padding: 8px 16px;
+}
+
+.highlight {
+    color: rgb(28, 80, 24);
+}
+
+.info-box {
+    background-color: rgb(211, 217, 233);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.schedule {
+    background-color: black;
+    width: 700px;
+    border-collapse: collapse;
+}
+
+.schedule-header {
+    background-color: rgb(255, 196, 228);
+    text-align: left;
+}
+
+.schedule-header th {
+    padding: 10px;
+    width: 100px;
+}
+
+.schedule-hours {
+    background-color: rgb(255, 220, 220);
+    text-align: center;
+}
+
+.highlight-paragraph {
+    background-color: rgb(226, 246, 253);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button-style {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.divider {
+    border-top: 1px solid #090101;
+    margin: 20px 0;
+}
+
+
+.space {
+    margin-bottom: 20px; 
+
+}
+
+.line-break {
+    height: 5px; 
+    width: 100%;  
+}
+
+body {
+    margin: 0;
+    background-image: url(/Lab4_Jiean/image/abstract-gradient-pastel-blue-and-purple-background-neon-pastel-color-template-for-website-or-presentation-free-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img{
+    height: 150px;
+    float: left;
+    float: right;
+    float: none;
+}
+#overflow{
+    border: 2px solid white;
+    height: 100px;
+    width: 30%;
+    overflow:scroll;
+
+}
+
+div{
+    width: auto;
+    height: auto;
+   
+}
+
+#box{
+    position: fixed;
+    right: 0;
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    color: black;
+    background-color:rgb(131, 235, 221);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left:50px; 
+    margin-right: 50px;
+
+
+
+}
+
+p::selection{
+    color: paleturquoise;
+    background-color: rgb(0, 0, 0);
+}
+
+#list li::marker{
+    content: "→  ";
+}
+
+
+#list li{
+    background-color: lightsteelblue;
+}
+
+
+a:link{
+    color:rgb(0, 153, 255)
+}
+
+a:hover{
+    color: palevioletred;
+    font-size: 1.13em;
+}
+
+a:active{
+    color: rgb(0, 132, 255);
+    font-size: 1.1em;
+}
+
+a:visited{
+    color: rgb(255, 146, 197);
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown .content {
+    display: none;
+    position: absolute;
+    background-color: #fbd0ff;
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+header{
+    text-align: center;
+    background-color: lightblue;
+    padding: 3px;
+}
+
+.navbar ul{
+    background-color: skyblue;
+    height: 40px;
+    margin: 0px;
+    padding: 5px;
+    overflow: hidden;
+    list-style-type: none;
+
+}
+
+.navbar li{
+    float: left;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: rgb(252, 248, 248);
+}
+
+aside{
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+
+section{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+article{
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: lightblue;
+    padding: 50px;
+    display: block;
+    clear: both;
+}
+
+
+main.grid-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr); 
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid-item {
+    background-color: rgb(240, 248, 255);   
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.1em;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 600px) {
+    main.grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    main.grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+.grid-item img {
+    width: 100%;        
+    height: 30px;        
+    object-fit: cover;    
+}
